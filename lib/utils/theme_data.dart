@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 const primaryColor = Color(0xff1E90FF);
 const secondaryColor = Colors.orangeAccent;
-const headingTextStyle = TextStyle(fontSize: 30, fontWeight: FontWeight.w700);
-const subHeadingTextSTyle =
+TextStyle headingTextStyle =
+    TextStyle(fontSize: 30, fontWeight: FontWeight.w700);
+TextStyle subHeadingTextSTyle =
     TextStyle(fontSize: 25, fontWeight: FontWeight.w700);
 TextStyle bodyTextStyle = const TextStyle(fontSize: 25);
 TextStyle bodyTextStyle2 = const TextStyle(fontSize: 20);
